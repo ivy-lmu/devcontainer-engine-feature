@@ -1,6 +1,13 @@
 #!/bin/sh
 set -e
 
+apt_get_update() {
+  if [ "$(find /var/lib/apt/lists/* | wc -l)" = "0" ]; then
+    echo "Running apt-get update..."
+    apt-get update -y
+  fi
+}
+
 check_packages() {
   if ! dpkg -s "$@" > /dev/null 2>&1; then
     apt_get_update
