@@ -1,6 +1,6 @@
 {
     "name": "Axon Ivy Engine",
-    "id": "axon-ivy-engine",
+    "id": "engine",
     "version": "1.0.0",
     "description": "Install an Axon Ivy Engine",
     "options": {},
