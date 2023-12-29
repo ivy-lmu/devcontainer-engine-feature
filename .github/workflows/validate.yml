@@ -1,7 +1,10 @@
 name: "Validate devcontainer-feature.json files"
 on:
-  workflow_dispatch:
+  push:
   pull_request:
+  schedule:
+    - cron:  '21 21 * * *'
+  workflow_dispatch:
 
 jobs:
   validate:
