@@ -3,6 +3,7 @@
     "id": "axon-ivy-engine",
     "version": "1.0.0",
     "description": "Install an Axon Ivy Engine",
+    "options": {},
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
