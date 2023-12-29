@@ -1,7 +1,7 @@
 {
   "name": "Axon Ivy Engine",
   "id": "engine",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Install an Axon Ivy Engine",
   "options": {
     "downloadUrl": {
