@@ -3,7 +3,7 @@
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
       "engine": {
-        "downloadUrl": "https://dev.axonivy.com/permalink/nightlyy/axonivy-engine-slim.zip",
+        "downloadUrl": "https://dev.axonivy.com/permalink/nightly/axonivy-engine-slim.zip",
         "engineHome": "/usr/lib/testDir"
       }
     }
