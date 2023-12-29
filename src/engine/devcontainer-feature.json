@@ -1,0 +1,9 @@
+{
+    "name": "Axon Ivy Engine",
+    "id": "axon-ivy-engine",
+    "version": "1.0.1",
+    "description": "Install an Axon Ivy Engine",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
