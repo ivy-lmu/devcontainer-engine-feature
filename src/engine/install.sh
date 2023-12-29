@@ -15,8 +15,7 @@ check_packages() {
   fi
 }
 
-echo "Installing wget if needed."
-check_packages wget unzip
+check_packages wget ca-certificates unzip
 
 echo "Downloading Axon Ivy Engine from '$DOWNLOADURL'"
 wget ${DOWNLOADURL} -O /tmp/ivy.zip --no-verbose
