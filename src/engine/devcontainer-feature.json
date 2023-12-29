@@ -1,10 +1,21 @@
 {
-    "name": "Axon Ivy Engine",
-    "id": "engine",
-    "version": "1.0.0",
-    "description": "Install an Axon Ivy Engine",
-    "options": {},
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
-    ]
+  "name": "Axon Ivy Engine",
+  "id": "engine",
+  "version": "1.0.1",
+  "description": "Install an Axon Ivy Engine",
+  "options": {
+    "downloadUrl": {
+      "description": "Defines which Axon Ivy Engine will be downloaded.",
+      "type": "string",
+      "default": "https://dev.axonivy.com/permalink/dev/axonivy-engine-slim.zip"
+    },
+    "engineHome": {
+      "description": "Defines where the Axon Ivy Engine will be located.",
+      "type": "string",
+      "default": "/usr/lib/axonivy-engine"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
 }
