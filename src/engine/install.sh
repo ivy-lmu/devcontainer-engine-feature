@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+IVY_ENGINE_DOWNLOAD_URL="https://dev.axonivy.com/permalink/dev/axonivy-engine-slim.zip"
+IVY_HOME="/usr/lib/axonivy-engine"
+
 echo "Activating feature 'hello'"
 
 echo "The effective dev container remoteUser is '$_REMOTE_USER'"
