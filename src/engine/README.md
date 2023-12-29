@@ -15,7 +15,8 @@ Install an Axon Ivy Engine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-
+| downloadUrl | Defines which Axon Ivy Engine will be downloaded. | string | https://dev.axonivy.com/permalink/dev/axonivy-engine-slim.zip |
+| engineHome | Defines where the Axon Ivy Engine will be located. | string | /usr/lib/axonivy-engine |
 
 
 
